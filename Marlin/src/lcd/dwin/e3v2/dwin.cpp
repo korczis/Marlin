@@ -2080,7 +2080,7 @@ void Menu_Item_Handler(uint8_t menu, uint8_t item, bool draw/*=true*/) {
 char* Get_Menu_Title(uint8_t menu) {
   switch(menu) {
     case MainMenu:
-      return (char*)"Ender 3 V2";
+      return (char*)"Ender 3 V2 (korCZis)";
     case Prepare:
       return (char*)"Prepare";
     case Move:
