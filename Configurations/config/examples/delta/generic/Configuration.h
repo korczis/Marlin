@@ -21,6 +21,8 @@
  */
 #pragma once
 
+#define HAS_ENCODER_WHEEL 1
+
 /**
  * Configuration.h
  *

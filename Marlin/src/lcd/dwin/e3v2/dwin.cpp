@@ -2830,12 +2830,14 @@ void HMI_StartFrame(const bool with_update) {
 
 void AudioFeedback(const bool success/*=true*/) {
   if (success) {
-    buzzer.tone(100, 659);
-    buzzer.tone(10, 0);
-    buzzer.tone(100, 698);
+    // buzzer.tone(100, 659);
+    // buzzer.tone(10, 0);
+    // buzzer.tone(100, 698);
   }
   else
-    buzzer.tone(40, 440);
+  {
+    // buzzer.tone(40, 440);
+  }
 }
 
 inline void HMI_SDCardInit() { card.cdroot(); }
